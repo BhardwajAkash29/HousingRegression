@@ -2,14 +2,14 @@
 
 A machine learning project for predicting housing prices using various regression algorithms on the Boston Housing dataset.
 
-## 📋 Overview
+## Overview
 
 This project implements and compares three different regression models to predict median home values:
 - **Linear Regression**: Simple linear model for baseline comparison
 - **Ridge Regression**: Regularized linear model to prevent overfitting
 - **Random Forest**: Ensemble method for capturing non-linear relationships
 
-## 🚀 Features
+## Features
 
 - Data loading and preprocessing utilities
 - Multiple regression model implementations
@@ -17,7 +17,7 @@ This project implements and compares three different regression models to predic
 - Model persistence using joblib
 - Modular code structure for easy extension
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 HousingRegression/
@@ -27,7 +27,7 @@ HousingRegression/
 └── README.md        # Project documentation
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -40,7 +40,7 @@ cd HousingRegression
 pip install -r requirements.txt
 ```
 
-## 📊 Dataset
+## Dataset
 
 The project uses the Boston Housing dataset, which contains:
 - **506 samples** of housing data
@@ -62,7 +62,7 @@ The project uses the Boston Housing dataset, which contains:
 - `B`: Proportion of blacks by town
 - `LSTAT`: % lower status of the population
 
-## 🏃‍♂️ Usage
+## Usage
 
 Run the main regression script:
 ```bash
@@ -76,7 +76,7 @@ This will:
 4. Evaluate each model using MSE and R² metrics
 5. Save trained models as `.joblib` files
 
-## 📈 Model Performance
+## Model Performance
 
 The script outputs performance metrics for each model:
 - **MSE (Mean Squared Error)**: Lower values indicate better performance
@@ -89,7 +89,7 @@ Ridge: MSE = 21.63, R² = 0.67
 RandomForest: MSE = 11.25, R² = 0.87
 ```
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Models
 To add a new regression model:
@@ -103,7 +103,7 @@ The `utils.py` file contains utility functions that can be modified:
 - `split_data()`: Adjust train-test split parameters
 - `evaluate_model()`: Add new evaluation metrics
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.7+
 - pandas
@@ -112,7 +112,7 @@ The `utils.py` file contains utility functions that can be modified:
 - joblib
 - pytest (for testing)
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -120,11 +120,11 @@ The `utils.py` file contains utility functions that can be modified:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Boston Housing dataset from the UCI Machine Learning Repository
 - Scikit-learn for machine learning algorithms
